@@ -10,6 +10,9 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\font_init</font>
+  </fonts>
   <objects name="objects">
     <object>objects\TouchController</object>
   </objects>
