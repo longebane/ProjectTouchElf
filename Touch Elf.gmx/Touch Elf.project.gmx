@@ -8,13 +8,20 @@
   <sprites name="sprites">
     <sprite>sprites\spr_mainPresent</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_placeholder</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\draw_text_outline.gml</script>
+    <script>scripts\draw_text_outline_color.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\font_init</font>
   </fonts>
   <objects name="objects">
-    <object>objects\con_touch</object>
+    <object>objects\con_presents</object>
+    <object>objects\obj_touch</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Playground</room>
