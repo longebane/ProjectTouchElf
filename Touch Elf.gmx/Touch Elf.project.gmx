@@ -6,7 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\spr_mainPresent</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -14,7 +14,7 @@
     <font>fonts\font_init</font>
   </fonts>
   <objects name="objects">
-    <object>objects\TouchController</object>
+    <object>objects\con_touch</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Playground</room>
