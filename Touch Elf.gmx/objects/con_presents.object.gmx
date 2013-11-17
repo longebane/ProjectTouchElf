@@ -61,26 +61,6 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>524</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_color</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>13</kind>
-            <string>16777215</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -95,8 +75,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-draw_text_outline(40,10,1,string(global.presents) + "  Presents Made!");
+            <string>draw_set_color(c_black);
+draw_set_alpha(.5)
+draw_rectangle(0,60,room_width,135,0);
+
+draw_set_color(c_white);
+draw_set_alpha(1)
+draw_text_outline(40,25+50,1,string(global.presents) + "  Presents Made!"); 
+
+
 </string>
           </argument>
         </arguments>

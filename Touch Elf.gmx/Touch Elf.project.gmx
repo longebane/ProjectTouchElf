@@ -6,7 +6,8 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_mainPresent</sprite>
+    <sprite>sprites\spr_main_present</sprite>
+    <sprite>sprites\spr_plus_one</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_placeholder</background>
@@ -15,13 +16,18 @@
   <scripts name="scripts">
     <script>scripts\draw_text_outline.gml</script>
     <script>scripts\draw_text_outline_color.gml</script>
+    <script>scripts\scr_particle.gml</script>
+    <script>scripts\scr_particle_new.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_init</font>
   </fonts>
   <objects name="objects">
     <object>objects\con_presents</object>
-    <object>objects\obj_touch</object>
+    <objects name="Touch">
+      <object>objects\con_touch</object>
+      <object>objects\_indicators</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Playground</room>

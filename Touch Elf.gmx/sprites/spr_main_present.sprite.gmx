@@ -19,6 +19,6 @@
   <width>590</width>
   <height>393</height>
   <frames>
-    <frame index="0">images\spr_mainPresent_0.png</frame>
+    <frame index="0">images\spr_main_present_0.png</frame>
   </frames>
 </sprite>
