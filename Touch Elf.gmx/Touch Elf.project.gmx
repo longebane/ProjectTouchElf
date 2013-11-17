@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_main_present</sprite>
     <sprite>sprites\spr_plus_one</sprite>
+    <sprite>sprites\sprite2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_placeholder</background>
@@ -23,7 +24,7 @@
     <font>fonts\font_init</font>
   </fonts>
   <objects name="objects">
-    <object>objects\con_presents</object>
+    <object>objects\con_score</object>
     <objects name="Touch">
       <object>objects\con_touch</object>
       <object>objects\_indicators</object>
