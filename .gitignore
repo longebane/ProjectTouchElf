@@ -1,3 +1,5 @@
+/Development Graphics
+
 #################
 ## Eclipse
 #################
@@ -14,12 +16,7 @@ tmp/
 local.properties
 .classpath
 .settings/
-.loadpath
-
-# External tool builders
-.externalToolBuilders/
-
-# Locally stored "Eclipse launch configurations"
+.loadpathh configurations"
 *.launch
 
 # CDT-specific
@@ -56,6 +53,11 @@ build/
 
 *_i.c
 *_p.c
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launc
 *.ilk
 *.meta
 *.obj
