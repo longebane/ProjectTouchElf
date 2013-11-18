@@ -6,7 +6,7 @@
   <vsnap>32</vsnap>
   <hsnap>32</hsnap>
   <isometric>0</isometric>
-  <speed>30</speed>
+  <speed>60</speed>
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
@@ -52,6 +52,9 @@
   <instances>
     <instance objName="con_score" x="32" y="32" name="inst_C50CD777" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="con_touch" x="320" y="320" name="inst_15D4CDCD" locked="0" code="" scaleX="0.646859109401703" scaleY="0.596938788890839" colour="4294967295" rotation="0"/>
+    <instance objName="_slave" x="160" y="352" name="inst_22D734CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="_slave" x="128" y="352" name="inst_8E2C0588" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="_slave" x="96" y="352" name="inst_D3182A94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

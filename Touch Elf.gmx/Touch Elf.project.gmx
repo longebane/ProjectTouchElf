@@ -8,7 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_main_present</sprite>
     <sprite>sprites\spr_plus_one</sprite>
-    <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\spr_slave</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_placeholder</background>
@@ -28,6 +28,10 @@
     <objects name="Touch">
       <object>objects\con_touch</object>
       <object>objects\_indicators</object>
+    </objects>
+    <objects name="Slaves">
+      <object>objects\con_slave</object>
+      <object>objects\_slave</object>
     </objects>
   </objects>
   <rooms name="rooms">
